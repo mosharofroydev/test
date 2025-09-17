@@ -2,8 +2,7 @@ from pymongo import MongoClient
 import os
 
 # MONGO_URI environment variable থেকে নেওয়া
-MONGO_URI = os.getenv("mongodb+srv://test:hvM1kLeXCCSXXb1u@cluster0.mrfgvxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-")
+MONGO_URI = os.getenv("mongodb+srv://test:hvM1kLeXCCSXXb1u@cluster0.mrfgvxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 if not MONGO_URI:
     print("❌ MONGO_URI environment variable is not set!")
